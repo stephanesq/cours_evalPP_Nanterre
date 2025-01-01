@@ -49,5 +49,5 @@ po/*~
 rsconnect/
 
 # Pdf
-_Ressources/*.pdf
+_readings/*.pdf
 .DS_Store
