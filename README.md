@@ -18,7 +18,7 @@ Les applications sont inspirées de travaux en *Law and Economics*.
 
 ❌ Ce cours n'aborde ni les études d'impact (évaluation *ex ante*), ni la gestion d'un projet d'évaluation.
 
-### Objectifs pédagogiques
+### 🎯 Objectifs pédagogiques
 - Comprendre les concepts fondamentaux de l'évaluation causale.
 - Savoir appliquer les méthodes appropriées à des contextes empiriques variés.
 - Développer une approche critique face aux résultats d'études empiriques.
@@ -108,3 +108,12 @@ Les applications sont inspirées de travaux en *Law and Economics*.
 ## 🤝 Contribuer
 
 - Les contributions (scripts, lectures, corrections) sont bienvenues. Crée une pull request ou ouvre une issue pour toute suggestion
+
+---
+
+## Ressources
+
+- Outil interactif https://mattblackwell.github.io/gov2002-book/
+- Chapitres
+   - DID dans Mixtape https://mixtape.scunning.com/09-difference_in_differences
+   - DID dans the effect Book https://theeffectbook.net/ch-DifferenceinDifference.html
