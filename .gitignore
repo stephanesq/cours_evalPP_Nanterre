@@ -48,6 +48,17 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
-# Pdf
-_readings/*.pdf
+# readings
+
+/_readings/*
+
+# Autres formats texte
+*.pdf
+*.docx
+*.html
 .DS_Store
+
+# Data
+*.csv
+*.dta
+
