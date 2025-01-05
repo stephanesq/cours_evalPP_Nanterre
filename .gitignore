@@ -62,3 +62,11 @@ rsconnect/
 *.csv
 *.dta
 
+*.js
+*.css
+*.map
+*.eot
+*.ttf
+*.woff
+*.yml
+*.png
