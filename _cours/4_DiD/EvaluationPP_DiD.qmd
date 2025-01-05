@@ -1,0 +1,94 @@
+---
+title: "Évaluation des politiques publiques"
+subtitle: "3 - Différence-de-différence"
+author: "Stéphane Esquerré"
+#date: "`r Sys.Date()`"
+format:
+  revealjs:
+    theme: solarized
+    slide-number:  c/t #< collapsed/total ; true
+    selfContained: true
+    progress: true
+    #css: styles.css # Fichier CSS pour personnaliser le style ../_cours/
+    incremental: true #les listes se révèlent au fur et à mesure à moins d'indiquer ::: {.nonincremental}
+    #logo: logo.png
+    footer: "Evaluation des PP - M2 Eco du droit"
+---
+
+# Recap
+
+## La révolution de la crédibilité
+
+:::::::: columns
+::::: {.column width="50%"}
+:::: fragment
+### Qui je suis et qui je pourrais être, avec ou sans traitement
+
+::: incremental
+-   U exercice de pensée un peu quantique
+
+    -   Soit Rubin et Neyman
+
+    -   Ce que l'on veut savoir :
+
+        -   L'effet du traitement
+
+        -   L'effet du traitement en général
+
+-   Des notations pour l'exprimer
+:::
+::::
+:::::
+
+:::: {.column width="50%"}
+::: fragment
+### Une explosion des publications
+
+Disponibilité de données administratives, meilleurs outils de traitement
+
+[![Tracking the Credibility Revolution by Goldsmith-Pinkham (2024)](GP2024_evol_experimental.png)](https://arxiv.org/abs/2405.20604)
+:::
+::::
+::::::::
+
+# Diff-de-Diff
+
+## John Snow, le choléra
+
+Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+![](https://www.canva.com/design/DAGbXeGi4-M/AP6TVc1ed3bvOUhk_EFzZg/watch?utm_content=DAGbXeGi4-M&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h502205b270)
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+## Slide Title {visibility="hidden"}
+
+```{=html}
+<!-- 
+::: {.class} 
+ <SOME CONTENT> 
+ :::
+ Some text with a specific [span]{.span-class} 
+ -->
+```
+
+::::: {.fragment .fade-in}
+:::: {.fragment .highlight-red}
+::: {.fragment .semi-fade-out}
+Fade in \> Turn red \> Semi fade out
+:::
+::::
+:::::
